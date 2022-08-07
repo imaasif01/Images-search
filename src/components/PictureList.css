@@ -1,0 +1,31 @@
+.picture-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1px 6px;
+  grid-auto-rows: 10px;
+}
+
+.picture-list img {
+  width: 250px;
+  grid-row-end: span 2;
+  border-radius: 10px;
+}
+
+body {
+  /* background: rgb(207, 121, 228);
+  background: linear-gradient(
+    120deg,
+    rgba(207, 121, 228, 1) 0%,
+    rgba(219, 202, 223, 1) 35%,
+    rgba(209, 186, 245, 1) 60%,
+    rgba(178, 80, 223, 1) 100%
+  ); */
+  background: rgb(143, 138, 144);
+  background: linear-gradient(
+    120deg,
+    rgba(143, 138, 144, 1) 0%,
+    rgba(74, 71, 75, 1) 35%,
+    rgba(114, 112, 116, 1) 60%,
+    rgba(34, 34, 34, 1) 100%
+  );
+}
